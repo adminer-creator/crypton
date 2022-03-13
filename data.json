@@ -1,0 +1,47 @@
+{
+    "crypto": [
+        {
+            "pair_cripto": "ethusd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "ltcusd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "xrpusd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "xlmusd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "omgusd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "algousd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "sgbusd",
+            "asset_qty": "1"
+        },
+        {
+            "pair_cripto": "aaveusd",
+            "asset_qty": "1"
+        }
+    ],
+    "fiat": [
+        {
+            "wallet0": "1"
+        },
+        {
+            "wallet1": "0"
+        },
+        {
+            "wallet2": "0"
+        }
+    ]
+}

@@ -1,51 +1,36 @@
-# crypton
+#Crypton - ES
 
-## Crypton 0.1 - 2021
+Crypton es un pequeño programa hecho con Python para poder visualizar Cripto Assets con amplia información gracias al uso de APIS.
 
-### English
+Para el uso de este script se necesita tener instalado python3 y las librerias colorama y requests.
 
-A little script to visualize assets. I use it from a linux terminal,
-to see the different criptocurrency's variations.
+En linux esto se puede instalar de la siguiente manera:
+`sudo apt install python3 python3-colorama`
+`pip install requests`
 
-You will have a better experience using "watch" command.
+Para guardar nuestros datos en un archivo csv agreamos csv al ejecutar el archivo seguido de el pair que queramos guardar. Por ejemplo:
+    `python3 crypton-02-2022.py csv xrpusd`
+En caso de querer almacenar los datos de todos los assets luego del parametro csv agregamos all:
+    `python3 crypton-02-2022.py csv all`
 
-  eg. $ watch python3 cripton.py
+Los valores de wallet y de las disponibilidades se cargan desde el archivo data.json
 
-The variable asset_qty should be modified with the quantity of our assets.
+Probado con python 3 con Debian 10/11 y macOS HighSierra
 
-The variable pair_cripto should be modified with the pairs that we want to see.
+#Crypton - EN
 
-In this case, we use ethusd, ltcusd, xrpusd, xlmusd, batusd.
+Crypton is a little script made with Python to visualize Cripto Assets with a lot of information thanks to the APIS.
 
-This version was tested in Debian 9, Debian 10, Ubuntu 20.04
+To use this script you need to have python3 and the colorama and requests libraries.
+In linux this can be installed like this:
+`sudo apt install python3 python3-colorama`
+`pip install requests`
 
-All the support will help us to improve Crypton.
+To save our data in a csv file we have to add csv when run the script followed by the pai that we want to save. For example:
+    `python3 crypton-02-2022.py csv xrpusd`
+In case that you want to save the data from all the assets after the csv parameter you should add all:
+    `python3 crypton-02-2022.py csv all`
 
-I wish it could be useful
+Available wallets and cripto values are load from file data.json
 
-For more api's info https://www.bitstamp.net/api
-
-
-
--------------------
-### Español
-
-Pequeño script para visualizar datos de nuestro activos. Lo utilizo desde una terminal de linux, para ver el comportamiento de activos de cripto u otras monedas.
-
-Se puede tener una mejor experiencia utilizando el comando "watch".
-
-  ej. $ watch python3 cripton.py
-
-La variable asset_qty se debe modificar con la cantidad de nuestros activos.
-
-En la variable pair_cripto modificamos nuestros activos que se quiera visualizar.
-
-En nuestro caso utilizamos los pares ethusd, ltcusd, xrpusd, xlmusd, batusd.
-
-Esta versión fue probada en Debian 9, Debian 10, Ubuntu 20.04
-
-Toda ayuda nos sirve para poder mejorar Crypton.
-
-Espero te sea útil
-
-para más información de las api's disponibles https://www.bitstamp.net/api
+Tested with python 3 in Debian 10/11 y macOS HighSierra
