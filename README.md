@@ -1,4 +1,4 @@
-#Crypton - ES
+# Crypton - ES
 
 Crypton es un pequeño programa hecho con Python para poder visualizar Cripto Assets con amplia información gracias al uso de APIS.
 
@@ -17,7 +17,7 @@ Los valores de wallet y de las disponibilidades se cargan desde el archivo data.
 
 Probado con python 3 con Debian 10/11 y macOS HighSierra
 
-#Crypton - EN
+# Crypton - EN
 
 Crypton is a little script made with Python to visualize Cripto Assets with a lot of information thanks to the APIS.
 
